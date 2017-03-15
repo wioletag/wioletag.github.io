@@ -1,0 +1,29 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+.points, .lives, .level {
+	padding-right: 10px;
+}
+
+.title {
+	padding-top: 70px;
+	font-size: 20px;
+	color: #A52A2A;
+}
+
+#github {
+	font-size: 20px;
+	color: #A52A2A;
+}
+
+a:visited, a:active, a:link{
+	text-decoration: none;
+	color: #A52A2A;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+}
