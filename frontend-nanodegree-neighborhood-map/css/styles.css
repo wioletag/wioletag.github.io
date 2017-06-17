@@ -1,0 +1,71 @@
+#map {
+  margin: 0;
+  padding: 0;
+  height: 85%;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container-fluid {
+  margin:0 ! important;
+  padding:0 ! important;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+}
+
+.map-container {
+  height: 100%;
+  padding-left: 0;
+}
+
+.locations-header {
+  color: #1486b7 ! important;
+  font-size: 14px;
+  padding: 12px 15px;
+}
+
+.info p{
+  margin: 2px;
+}
+
+.loc a:hover {
+  color: #e85113 ! important;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+
+  .sidebar-nav .navbar li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .locations-header {
+    display: none;
+  }
+}
