@@ -139,7 +139,7 @@ var Location = function(data){
 		visible: true
 	});
 	this.infowindow = new google.maps.InfoWindow();
-}
+};
 
 function ViewModel() {
 	var self = this;
