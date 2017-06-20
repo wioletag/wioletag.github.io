@@ -94,7 +94,7 @@ function ViewModel() {
    * Function to create content for marker's infoWindow
    */
   this.getContent = function(locationTitle, result) {
-    var content, address, rating, ratingSignals, url, source;
+    var content, address, rating, url, source;
     var title = '<h5>' + locationTitle + '</h5>';
 
     // Set variables based on output from Foursquare API
