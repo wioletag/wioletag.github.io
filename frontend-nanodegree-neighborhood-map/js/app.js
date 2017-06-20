@@ -298,7 +298,7 @@ function ViewModel() {
 
     // Get location data from json file
     $.ajax({
-      url: '/frontend-nanodegree-neighborhood-map/data2.json',
+      url: '/frontend-nanodegree-neighborhood-map/data.json',
       dataType: 'json',
       success: function(data) {
         data.locations.forEach(function(location) {
