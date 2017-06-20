@@ -169,7 +169,6 @@ function ViewModel() {
       url: '/frontend-nanodegree-neighborhood-map/mapStyle.json',
       dataType: 'json',
       success: function(data) {
-        console.log(data.style);
         model.map.setOptions({styles: data.style});
       },
       error: function() {
