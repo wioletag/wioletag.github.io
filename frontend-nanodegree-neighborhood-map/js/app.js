@@ -66,7 +66,7 @@ function ViewModel() {
     var clientId = 'OBCNKT2ROUPNFWFVVP1QYEYMRRNNDRU2AR52YOZ5FRJCI13U';
     var clientSecret = '3DYBBVMJHUN4YT4HRFJO1P5AE1I2RK14PZ0LWWQCAFDA225R';
     var version = 20170101;
-    var base_url = 'https://api.foursquare.com/v2/venues';
+    var base_url = 'https://api.foursquaree.com/v2/venues';
     var venue_id = location.id;
     var url = base_url + '/' + venue_id + '?client_id=' + clientId +
       '&client_secret=' + clientSecret + '&v=' + version;
