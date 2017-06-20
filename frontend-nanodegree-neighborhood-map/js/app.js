@@ -44,6 +44,7 @@ function ViewModel() {
       return self.locationList();
     } else {
       return ko.utils.arrayFilter(self.locationList(), function(location) {
+        model.infowindow.close();
         if (location.title.toLowerCase().indexOf(filter) !== -1 ||
           location.keys.toString().indexOf(filter) != -1) {
           location.marker.setVisible(true);
