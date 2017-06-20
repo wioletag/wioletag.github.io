@@ -99,7 +99,7 @@ function ViewModel() {
 
     // Set variables based on output from Foursquare API
     address = (result.location.formattedAddress && result.location.formattedAddress.length) ? (result.location.formattedAddress[
-          0] + '</br>' + result.location.formattedAddress[1] + '</br>' + result.location.formattedAddress[2] + '</p>') : "No address available"
+          0] + '</br>' + result.location.formattedAddress[1] + '</br>' + result.location.formattedAddress[2] + '</p>') : "No address available";
     rating = result.rating ? result.rating : "No rating available";
     rating += result.ratingSignals ? " (" + result.ratingSignals + " ratings)" : "";
     url = result.url ? '<a href="' + result.url + '" target="_blank">' + result.url + '</a>' : 'No url available';
