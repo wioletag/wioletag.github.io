@@ -166,7 +166,7 @@ function ViewModel() {
    */
   this.setMapStyle = function() {
     $.ajax({
-      url: '/frontend-nanodegree-neighborhood-map/mapStyle3.json',
+      url: '/frontend-nanodegree-neighborhood-map/mapStyle.json',
       dataType: 'json',
       success: function(data) {
         model.map.setOptions({styles: data.style});
