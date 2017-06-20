@@ -139,7 +139,7 @@ function ViewModel() {
 
     // Get location data from json file
     $.ajax({
-      url: '/../data.json',
+      url: '/frontend-nanodegree-neighborhood-map/data.json',
       dataType: 'json',
       success: function(data) {
         data.locations.forEach(function(location) {
@@ -166,7 +166,7 @@ function ViewModel() {
    */
   this.setMapStyle = function() {
     $.ajax({
-      url: '/../mapStyle.json',
+      url: '/frontend-nanodegree-neighborhood-map/mapStyle.json',
       dataType: 'json',
       success: function(data) {
         console.log(data.style);
