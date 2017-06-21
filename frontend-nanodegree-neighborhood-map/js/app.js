@@ -156,7 +156,7 @@ function ViewModel() {
       },
       error: function() {
         // Error handling
-        self.locErrorMsg("Error reading location data.")
+        self.locErrorMsg("Error reading location data.");
       }
     });
   };
@@ -178,7 +178,7 @@ function ViewModel() {
         console.log("Map style failed to load. Default style will be used.");
       }
     });
-  }
+  };
 
   /**
    * Function to bounce marker on the map
