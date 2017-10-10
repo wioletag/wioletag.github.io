@@ -8,6 +8,14 @@ body {
   color: #4c4b4b;
 }
 
+hr {
+  height: 4px;
+  width: 80px;
+  background: #e0ba00;
+  margin-bottom: 60px;
+  border: 0;
+}
+
 /* Navigation */
 #top {
   border-radius: 0px;
@@ -58,7 +66,7 @@ body {
   color: #222;
   text-align: center;
   font-weight: bold;
-  padding-bottom: 60px;
+  /*padding-bottom: 60px;*/
 }
 
 /* About me */
@@ -68,9 +76,10 @@ body {
 
 .about-me {
   line-height: 150%;
-  font-size: 14px;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
 }
 
 .btn-red {
