@@ -5,17 +5,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <title>Wioleta G.</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-    <meta name="theme-color" content="#644171">
+    <meta name="theme-color" content="#e0ba00">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav id="top" class="navbar navbar-default">
+    <nav id="top" class="custom-nav navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -24,22 +23,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="navbar-brand">
-                    <svg class="logo" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.65 119.04">
-                        <defs><style>.cls-1 {fill: #7f3f98;}.cls-2 {fill: #f8f8f8;}
-                        </style></defs><title>logo2</title>
-                        <path class="cls-1" d="M123.52,125.21a90.31,90.31,0,0,1-23,8.32A117.11,117.11,0,0,1,76,136.09a69.79,69.79,0,0,1-24.48-4.16A56,56,0,0,1,32.16,120a54,54,0,0,1-12.72-18.8,64,64,0,0,1-4.56-24.64,64,64,0,0,1,4.56-24.64,54.05,54.05,0,0,1,12.72-18.8A56.06,56.06,0,0,1,51.52,21.21,69.79,69.79,0,0,1,76,17a90.67,90.67,0,0,1,25,3.28,49.05,49.05,0,0,1,20.08,11.28l-17.6,19.2a35.12,35.12,0,0,0-11.52-8q-6.4-2.72-16-2.72a37.08,37.08,0,0,0-14.48,2.72,32.52,32.52,0,0,0-11.12,7.6A33.37,33.37,0,0,0,43.28,62,41.71,41.71,0,0,0,40.8,76.57a41.5,41.5,0,0,0,2.48,14.64,33.49,33.49,0,0,0,7.12,11.52,32.46,32.46,0,0,0,11.12,7.6A37,37,0,0,0,76,113a47.68,47.68,0,0,0,14.08-1.84,53,53,0,0,0,9.44-3.76V89H79.2V66h44.32Z" transform="translate(-14.88 -17.05)" />
-                        <polygon class="cls-2" points="103.71 83.29 98.36 72.02 95.05 72.02 89.73 83.25 84.68 72.02 84.63 72.02 84.63 80.85 88.99 90.46 90.27 90.46 96.69 76.96 103.09 90.46 104.41 90.46 108.65 81.09 108.65 72.25 103.71 83.29" />
-                    </svg>
-                </div>
+                <a class="navbar-brand" href="#">WG</a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li><a href="#contact">Contact</a>
-                    </li>
+                <ul class="nav navbar-nav navbar-right nav-links">
+                    <li><a class="scroll" href="#about">ABOUT</a></li>
+                    <li><a class="scroll" href="#portfolio">PROJECTS</a></li>
+                    <li><a class="scroll" href="#footer">CONTACT</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -47,90 +38,149 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <section class="container cover">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Welcome!</h1>
-                <h1>I'm Wioleta. Front End Developer.</h1>
+    <header id="header" class="intro-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="welcome-message">
+                        <h3>Hi, I'm Wioleta. Web developer based in Chicago.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title">About Me</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about-me">
+                        <p>I graduated from Dominican University in River Forest, IL, with a B.S in Computer Science and Computer Information Systems. Currenly, I'm working at AT&T in Chicago/Schaumburg as a Sr. Specialist Application Developer. I recenly completed Udacity Front-End Web Developer Nanodegree. This portfolio mostly contains projects completed during the Nanodegree program.</p>
+                        <p>In my free time, I enjoy exploring vegan places in my city, cuddling with my rescue dog Zoey and love traveling. My favorite place I traveled to is Istanbul, Turkey.</p><br>
+
+                        <a class="btn btn-red" a="" href="images/golebiewskaResume.pdf" target="_blank">Resume</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <main id="portfolio" class="container target">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="work-title"><span>Featured Work</span></h2>
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title">Featured Work</h1>
+                    <hr>
+                </div>
             </div>
-            <article class="col-md-4 col-sm-4">
-                <div class="work-item">
-                    <a href="https://wioletag.github.io/portfolio/">
-                        <img class="img-responsive project-image" src="images/portfolio.png" alt="portfolio project">
-                    </a>
-                    <h4 class="project-title">Portfolio</h4>
-                </div>
-            </article>
-            <article class="col-md-4 col-sm-4">
-                <div class="work-item">
-                    <a href="https://wioletag.github.io/frontend-nanodegree-resume/">
-                        <img class="img-responsive project-image" src="images/resume.png" alt="resume project">
-                    </a>
-                    <h4 class="project-title">Resume</h4>
-                </div>
-            </article>
-            <article class="col-md-4 col-sm-4">
-                <div class="work-item">
-                    <a href="https://github.com/wioletag">
-                        <img class="img-responsive project-image" src="images/map.png" alt="map project">
-                    </a>
-                    <h4 class="project-title">Neighborhood Map</h4>
-                </div>
-            </article>
-            <article class="col-md-4 col-sm-4">
-                <div class="work-item">
-                    <a href="https://wioletag.github.io/frogger-game/">
-                        <img class="img-responsive project-image" src="images/arcade_game.png" alt="arcade game project">
-                    </a>
-                    <h4 class="project-title">Arcade Game</h4>
-                </div>
-            </article>
-            <article class="col-md-4 col-sm-4 ">
-                <div class="work-item">
-                    <a href="https://github.com/wioletag">
-                        <img class="img-responsive project-image" src="images/feed_reader.png" alt="feed reader">
-                    </a>
-                    <h4 class="project-title">Feed Reader</h4>
-                </div>
-            </article>
-            <article class="col-md-4 col-sm-4">
-                <div class="work-item">
-                    <a href="https://github.com/wioletag">
-                        <img class="img-responsive project-image" src="images/website_optimization.png" alt="website optimization project">
-                    </a>
-                    <h4 class="project-title">Website Optimization</h4>
-                </div>
-            </article>
+            <div class="row">
+                <article class="col-md-4 col-sm-4">
+                    <div class="project-item">
+                        <a href="https://github.com/wioletag/frontend-nanodegree-arcade-game-master" class="image-hover" target="_blank">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <img class="img-responsive project-image" src="images/arcade_game.png" alt="arcade game project">
+                        </a>
+                        <h4 class="project-title">Arcade Game</h4>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-4">
+                    <div class="project-item">
+                        <a href="https://github.com/wioletag/frontend-nanodegree-neighborhood-map" class="image-hover" target="_blank">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <img class="img-responsive project-image" src="images/map.png" alt="map project">
+                        </a>
+                        <h4 class="project-title">Neighborhood Map</h4>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-4">
+                    <div class="project-item">
+                        <a href="https://github.com/wioletag/frontend-nanodegree-mobile-portfolio-master" class="image-hover" target="_blank">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <img class="img-responsive project-image" src="images/website_optimization.png" alt="website optimization project">
+                        </a>
+                        <h4 class="project-title">Website Optimization</h4>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-4">
+                    <div class="project-item">
+                        <a href="https://github.com/wioletag/frontend-nanodegree-resume" class="image-hover" target="_blank">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <img class="img-responsive project-image" src="images/resume.png" alt="resume project">
+                        </a>
+                        <h4 class="project-title">Resume</h4>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-4">
+                    <div class="project-item">
+                        <a href="https://github.com/wioletag/frontend-nanodegree-feedreader" class="image-hover" target="_blank">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <img class="img-responsive project-image" src="images/feed_reader.png" alt="feed reader">
+                        </a>
+                        <h4 class="project-title">Feed Reader</h4>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-4">
+                    <div class="project-item">
+                        <a href="https://github.com/wioletag/timeline" class="image-hover" target="_blank">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <img class="img-responsive project-image" src="images/timeline.png" alt="feed reader">
+                        </a>
+                        <h4 class="project-title">Timeline</h4>
+                    </div>
+                </article>
+            </div>
         </div>
-    </main>
+    </section>
 
-    <footer class="text-center">
-        <div id="contact" class="footer-top target">
-            <div  class="container">
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="address">Wioleta Golebiewska. Chicago, IL</p>
+                        <a href="#header" class="scroll fa fa-chevron-up icon" aria-hidden="true"></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="contact-list">
-                            <li class="contact-icon">
-                                <a href="https://www.linkedin.com/in/wioletag" target="_blank" class="fa fa-linkedin" aria-hidden="true"></a>
+                            <li class="contact">
+                                <a href="https://www.linkedin.com/in/wioletag" target="_blank" class="fa fa-linkedin icon" aria-hidden="true"></a>
                             </li>
-                            <li class="contact-icon">
-                                <a href="mailto:wioleta87g@gmail.com?Subject=Hello" class="fa fa-envelope" aria-hidden="true"></a>
+                            <li class="contact">
+                                <a href="mailto:wgolebiewska@yahoo.com?Subject=Hello" class="fa fa-envelope icon" aria-hidden="true"></a>
                             </li>
-                            <li class="contact-icon">
-                                <a href="https://github.com/wioletag" target="_blank" class="fa fa-github" aria-hidden="true"></a>
+                            <li class="contact">
+                                <a href="https://github.com/wioletag" target="_blank" class="fa fa-github icon" aria-hidden="true"></a>
                             </li>
                         </ul>
                     </div>
@@ -138,10 +188,10 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <span>Copyright © 2017</span>
+                        <span>© 2017 Wioleta Golebiewska</span>
                     </div>
                 </div>
             </div>
@@ -150,6 +200,12 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="js/script.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
