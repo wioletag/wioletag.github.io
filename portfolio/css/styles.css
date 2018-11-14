@@ -101,6 +101,17 @@ hr {
   text-align: center;
 }
 
+a.udurl:visited,
+a.udurl:link {
+  text-decoration: none;
+  color: #e0ba00;
+}
+
+a.udurl:hover {
+  text-decoration: none;
+  color: #4c4b4b;
+}
+
 /* Featured work */
 #portfolio {
   padding: 60px 0 140px 0;
