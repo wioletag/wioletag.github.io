@@ -1,0 +1,71 @@
+html,
+body,
+* {
+	font-family: Arial, sans-serif;
+}
+
+/* Bar chart styling */
+
+div#barChart {
+	width: 100%;
+	margin: 0 auto 1em;
+}
+
+.bar.positive {
+	fill: #6bd098;
+}
+
+.bar.negative {
+	fill: #f17e5d;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+path.domain {
+	stroke: none;
+}
+
+#barChartDropdown {
+	display: block;
+	margin-bottom: 1em;
+	width: 250px;
+}
+
+
+/* D3 tooltip */
+
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: #2c2d2d;
+	color: #fff;
+	border-radius: 2px;
+	font-size: .8em;
+}
+
+.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 10px;
+	width: 100%;
+	line-height: 1;
+	color: #2c2d2d;
+	content: "\25BC";
+	position: absolute;
+	text-align: center;
+}
+
+
+/* Style northward tooltips differently */
+
+.d3-tip.n:after {
+	margin: -1px 0 0 0;
+	top: 100%;
+	left: 0;
+}
