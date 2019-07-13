@@ -21,7 +21,8 @@ var margin = {
 		left: 30
 	},
 	barPadding = .2,
-	height = 400 - margin.top - margin.bottom;
+	height = 400 - margin.top - margin.bottom,
+	threshold = 0;
 
 /**
  * This function gets list of values for Subset Dropdown
@@ -130,7 +131,7 @@ function barChartInit() {
 		.attr("class", "y axis")
 		.append("text")
 		.text("Y")
-		.attr("transform", "translate(15, 25), rotate(-90)");
+		.attr("transform", "translate(15, 10), rotate(-90)");
 
 	// Handler for dropdown value change
 	var dropdownChange = function () {
@@ -260,5 +261,11 @@ function updateBars() {
 
 	d3.select("#barChart").select("svg").select('.y.axis').call(yAxis);
 }
+
+$("#form").submit(function(event) {
+	threshold = $("#xvalue").val();
+	updateBars();
+	event.preventDefault();
+})
 
 barChartInit();
