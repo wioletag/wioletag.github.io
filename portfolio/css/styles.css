@@ -45,19 +45,20 @@ hr {
 
 /* Intro cover */
 .intro-header {
-  background: url(../images/bg-cover.jpg) no-repeat center center; /* Photo by Matthew Hamilton on Unsplash */
+  background-image: url(../images/bg-cover.jpg); /* Photo by Matthew Hamilton on Unsplash */
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-color: #e0ba00;
 }
 
 .welcome-message {
   color: #fff;
   margin: 260px 50px;
   text-align: center;
-  background: rgba(193, 161, 0, 0.85);
+  background-color: rgba(193, 161, 0, 0.85);
   padding: 2px;
 }
 
